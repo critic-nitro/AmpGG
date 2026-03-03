@@ -1,0 +1,14 @@
+### ⚠️ Why Windows might flag the Launcher
+When you run `AmpGG Release.exe`, Windows Defender or SmartScreen might show a "Windows protected your PC" popup. 
+
+**Don't panic—here is why this happens:**
+1. **Unsigned Executable:** I am an independent developer, not a multi-billion dollar company. I don't pay $500+/year for a Microsoft Digital Certificate to "sign" the `.exe`. Windows flags almost all unsigned scripts converted to `.exe` as a precaution.
+2. **PyInstaller:** The launcher is bundled using PyInstaller. Sometimes antivirus software flags bundled Python scripts because they can't "see" inside the package easily.
+
+### 🔍 Verify it yourself
+I believe in 100% transparency. You don't have to trust the `.exe` blindly:
+* **Check the Source:** The full raw code for the overlay (`ampgg.py`) and the launcher logic is available right here in this repository.
+* **Scan it:** You can upload the files to [VirusTotal](https://www.virustotal.com). You might see 1-2 "Generic" flags from obscure engines, but the major ones (Microsoft, BitDefender, Kaspersky) will show it's clean.
+* **Run from Source:** If you are still worried, you don't even need the `.exe`. Just install Python, run `pip install keyboard`, and launch `ampgg.py` directly.
+
+**My goal is to give you the edge in CS2, not to mess with your system. Stay safe and play fair.**
