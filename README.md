@@ -1,3 +1,13 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+## 🛡️ SAFETY & FAIR PLAY
+**EN:** AmpGG is **VAC-Safe**. It uses the official **Valve Game State Integration (GSI)**. It does not read or write to game memory and does not inject any code into the game. 
+**ET:** AmpGG on **VAC-turvaline**. See kasutab ametlikku **Valve Game State Integration (GSI)** süsteemi. See ei loe ega kirjuta mängu mälusse ega sisesta mängu koodi.
+!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
 \# ⚡ AmpGG v1.02
 
 \### Made by a Vibe Coder Crxtic
