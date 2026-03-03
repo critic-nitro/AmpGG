@@ -60,8 +60,9 @@
 
 4\. Käivita CS2 ja overlay ilmub automaatselt.
 
-
-
+### ⚙️ Manual GSI Installation
+If the launcher fails to find your CS2 folder, you can manually download the `.cfg` file from the folder in this repo and drop it into your CS2 `game/csgo/cfg` directory.
+                                ...\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
 ---
 
 
